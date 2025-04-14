@@ -1,0 +1,37 @@
+AI Prompts Used for Assignment Development
+
+Grammar Modification
+1. "How to add new token types to an ANTLR4 grammar for parsing byte sizes like '10KB' and time
+durations like '100ms'?"
+2. "What would be the most appropriate regex patterns for matching byte sizes (KB, MB, GB) and time
+durations (ms, s, m) in an ANTLR4 grammar?"
+3. "Show me how to modify an existing ANTLR4 grammar to support byte size and time duration units,
+with appropriate parser rules."
+
+Java Implementation
+1. "Design a ByteSize Java class that can parse strings like '10KB', '1.5MB', etc. and provide methods to
+convert between different byte units."
+2. "How would you implement a TimeDuration class in Java that supports parsing strings like '100ms',
+'2.5s', and converts between time units?"
+3. "What's the best way to extend a Token class in Java to support new token types like BYTE_SIZE and
+TIME_DURATION?"
+4. "Design pattern for implementing a visitor method that can handle byte size and time duration
+tokens in a parser."
+
+Directive Implementation
+1. "How to implement an aggregate directive in Java that processes byte sizes and time durations
+across multiple rows?"
+2. "What's the best approach to store running totals across multiple batches in a data processing
+pipeline?"
+3. "Design a Java class that computes statistics (sum, average) on byte sizes and time durations and
+converts the results to specified units."
+4. "How to implement proper error handling for parsing and aggregating byte sizes and time durations
+in a data processing context?"
+
+Testing
+1. "Help me write JUnit tests for a ByteSize class that parses and converts between byte units."
+2. "How to test an aggregation directive that processes multiple batches of data and produces a single
+result row?"
+3. "Write a test that verifies correct parsing of ANTLR tokens for byte sizes and time durations."
+4. "How to mock an ExecutorContext for testing a directive that uses the context's store for maintaining
+state between batches?"
